@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:numColumns="2"
+    tools:context=".MainActivity"
+    tools:ignore="AdapterViewChildren">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        app:theme="@style/ToolBarStyle"
+        android:layout_height="wrap_content"
+        android:elevation="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/imageview_decorator"
+        android:padding="15dp"
+        android:src="@drawable/ic_camera_black_24dp"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>
